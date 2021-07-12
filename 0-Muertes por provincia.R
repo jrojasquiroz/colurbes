@@ -1,4 +1,4 @@
-setwd("G:/Mi unidad/Documentos personales/Muertes Covid-19 por Áreas urbanas - Perú/1-Cálculos previos con límites INEI")
+setwd("Ruta/a/tu/carpeta")
 
 library(dplyr)
 library(readr)
