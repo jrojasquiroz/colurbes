@@ -27,15 +27,18 @@ Refrigeradora <- rbind(Refrigeradora_C,Refrigeradora_NC)
   #4.1.Obtenemos el total de manzanas que no tienen refri
   sum(Refrigeradora$`No tiene refrigeradora o congeladora`)
   #37081
-  #4.2.Calculamos qué porcentaje de esos hogares está en cada manzana
+  #4.2.Calculamos que porcentaje de esos hogares estÃ¡ en cada manzana
   Refrigeradora$No_TotalPR=Refrigeradora$`No tiene refrigeradora o congeladora`/37081*100
-
-#5. Separamos la columna 'Manzana' para obtener el código exacto de cada manzana)
+  Refrigeradora$No_PR=Refrigeradora$`No tiene refrigeradora o congeladora`/
+                      (Refrigeradora$`No tiene refrigeradora o congeladora`+
+                         Refrigeradora$`Si tiene refrigeradora o congeladora`)
+#5. Separamos la columna 'Manzana' para obtener el cÃ³digo exacto de cada manzana)
 library(tidyr)
+library(dplyr)
 Refrigeradora <- separate(Refrigeradora, Manzana, c("Cod","Reg","Prov","Dist","Ubi"))
 names(Refrigeradora)
 
-Refrigeradora_ok <- select(Refrigeradora, 2, 9)
+Refrigeradora_ok <- select(Refrigeradora, 2, 9, 10)
 
 #6. Vemos si hay duplicados y los eliminamos
 duplis3=data.frame(duplicated(Refrigeradora_ok$Cod)) #duplicada la manzana
