@@ -1,4 +1,4 @@
-setwd("C:/Users/rojas/Desktop/Chimbote")
+setwd("Ruta/a/tu/carpeta")
 
 library(readr)
 mz_correo <- read_csv("rawdata/Manzanas_Chimbote_INEI_Oficial.csv")
