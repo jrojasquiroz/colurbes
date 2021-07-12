@@ -1,4 +1,4 @@
-setwd("C:/Users/rojas/Desktop/Chimbote")
+setwd("Ruta/a/tu/carpeta")
 
 #1. Importamos el df de Nuevo Chimbote
 library(readxl)
