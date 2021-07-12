@@ -1,4 +1,4 @@
-setwd("C:/Users/rojas/Desktop/Chimbote")
+setwd("Ruta/a/tu/carpeta")
 
 #######Primero sacamos la población por manzana
 #######
