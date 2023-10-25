@@ -1,7 +1,7 @@
 # Columna para URBES Lab
-En este repositorio se pueden encontrar los cálculos hechos para la redacción de la columna.
+En este repositorio se pueden encontrar los cálculos hechos para la redacción de una columna para Noticias Ser, como investigador de Urbes Lab. En la descripción se encuentra el enlace a ella, sugiero leerla para entender el repositorio.
 
-En primer lugar, se puede revisar el proceso para encontrar las provincias con mayor tasa de *muertes por Covid-19 por cada 100.000 habitantes* dentro del script `0-Muertes por provincia` y los resultados en [este archivo]. En cualquier caso, las primeras diez provincias del país más afectadas son:
+En primer lugar, se puede revisar el proceso para encontrar las provincias con mayor *tasa de muertes por Covid-19 por cada 100.000 habitantes* dentro del script `0-Muertes por provincia` y los resultados en [este archivo]. En cualquier caso, las primeras diez provincias del país más afectadas son:
 
 ![imagen](https://user-images.githubusercontent.com/34352451/125222149-1ecec480-e28f-11eb-9818-8c5703719ffd.png)
 
